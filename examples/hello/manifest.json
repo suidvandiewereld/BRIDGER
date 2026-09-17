@@ -1,0 +1,9 @@
+{
+  "id": "hello",
+  "name": "Hello Bridger",
+  "version": "1.0.0",
+  "author": "Bridger",
+  "description": "Example mod showing the panel API.",
+  "entry": "hello.dll",
+  "dependencies": []
+}

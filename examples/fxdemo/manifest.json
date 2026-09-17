@@ -1,0 +1,9 @@
+{
+  "id": "fxdemo",
+  "name": "Shader Demo",
+  "version": "1.0.0",
+  "author": "Bridger",
+  "description": "Tour of the shader system: bloom, colour grade, world grid and markers, screen scanner.",
+  "entry": "fxdemo.dll",
+  "dependencies": []
+}

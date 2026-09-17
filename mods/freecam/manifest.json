@@ -1,0 +1,9 @@
+{
+  "id": "freecam",
+  "name": "Camera",
+  "version": "2.3.0",
+  "author": "Marquis",
+  "description": "Free camera (F3) and first-person view (F6).",
+  "entry": "freecam.dll",
+  "dependencies": []
+}

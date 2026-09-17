@@ -1,0 +1,87 @@
+Bridger
+Copyright (c) 2026 Marquis. All rights reserved.
+
+1. Scope
+
+   This license covers the Bridger source code, headers, build files, tools, scripts,
+   documentation and artwork in this repository (the "Software"), and the binaries built
+   from them.
+
+2. What you may do
+
+   You may read the Software, and you may clone, build and run it on your own machine for
+   your own use, subject to section 4.
+
+3. Mods
+
+   You may write, build and distribute mods for Bridger, in source or binary form, free
+   of charge or for money, under any terms you choose, provided that the mod:
+
+   a. is your own work, or work you are licensed to distribute;
+   b. uses the Software only through its public interface, meaning the headers under
+      include/bridger, the Lua API, and the manifest and configuration formats;
+   c. does not include, bundle or redistribute the Software itself, in whole or in part,
+      and directs its users to obtain Bridger from the copyright holder; and
+   d. does not include or redistribute any file from Death Stranding or anything derived
+      from one.
+
+   Nothing in this section makes your mod part of the Software, and nothing in it grants
+   you any rights in the Software beyond what section 2 already does.
+
+4. A copy of the game you own
+
+   Bridger works by modifying a running copy of Death Stranding. You may use the
+   Software only with a copy of Death Stranding that you own or are licensed to use,
+   obtained through a legitimate channel. Using the Software with a pirated, cracked or
+   otherwise unauthorised copy of the game is outside this license, and no right granted
+   here applies to that use.
+
+   Your agreement with the game's publisher and with the platform it runs on is between
+   you and them. This license grants nothing with respect to the game, and the copyright
+   holder makes no claim that using the Software is permitted under that agreement. That
+   judgement, and its consequences, are yours.
+
+   The Software checks this when it starts. It confirms that the game's own steam_api64.dll
+   carries Valve's signature, then asks the Steam client whether the signed-in account
+   holds a licence for Death Stranding. When either answer is no, the Software loads
+   nothing: no mods, no scripts, no overlay. Removing, disabling or working around that
+   check is a breach of this license.
+
+5. What you may not do without written permission from the copyright holder
+
+   a. Copy, publish or redistribute the Software or any part of it, in source or binary
+      form, modified or unmodified.
+   b. Distribute software that includes or is derived from the Software, other than a
+      mod that meets section 3.
+   c. Sell, sublicense, rent or otherwise make the Software available to third parties.
+   d. Remove or alter this notice or any copyright, authorship or attribution notice in
+      the Software.
+
+   Permission requests may be sent to the copyright holder. A permission granted in
+   writing applies only to what it names.
+
+6. What this license does not cover
+
+   a. Third-party components fetched or bundled by the build keep their own licenses and
+      their own copyright holders. As of this writing these are MinHook (BSD-2-Clause,
+      Tsuda Kageyu), nlohmann/json (MIT, Niels Lohmann) and Lua (MIT, Lua.org, PUC-Rio).
+      Their notices apply to the built binaries.
+   b. Death Stranding, the Decima engine and everything derived from them belong to their
+      owners. This repository ships no game files. Anything the tools generate from your
+      own copy of the game (type databases, engine headers, shader dumps, captures) stays
+      on your machine and is not licensed by this document.
+
+7. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+   OF OR OTHER DEALINGS IN THE SOFTWARE. Bridger modifies a running game process; you
+   use it at your own risk, including any risk to your save data or your account.
+
+8. No affiliation
+
+   Bridger is an unofficial fan project with no affiliation to, and no endorsement from,
+   Kojima Productions, 505 Games or Guerrilla Games.

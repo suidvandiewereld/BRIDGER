@@ -1,0 +1,41 @@
+build/
+out/
+mods/*/build/
+examples/*/build/
+CMakeUserPresets.json
+compile_commands.json
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.ipdb
+*.iobj
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Everything derived from the game stays local. python tools/bootstrap.py rebuilds it all.
+include/decima/
+include/bridger/lua/engine.d.lua
+data/rtti/ds/
+captures/
+
+# Patched copies of the game's compiled shaders. Game bytes, never shipped.
+# Regenerate: dump the pipelines from the Shaders tab, then
+#   python tools/patch_dither_pipelines.py <game>/Bridger/dumps/pipelines mods/freecam/shaders
+*.dxbc
+*.dmp
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+.claude/settings.local.json
+docs/research/

@@ -1,0 +1,9 @@
+{
+  "id": "photoreal",
+  "name": "Photoreal",
+  "version": "1.0.0",
+  "author": "Marquis",
+  "description": "Camera pipeline: adaptive sharpening, local contrast, aerial perspective, film response, lens.",
+  "entry": "photoreal.dll",
+  "dependencies": []
+}
